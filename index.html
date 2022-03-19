@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pokedex.css">
+    <title>Pokedex</title>
+</head>
+<body>
+    <section>
+
+    <!-- <h1>Este es el ejercicio de Pokedex</h1> -->
+    <!-- <p>Gotta catch them all!</p> -->
+    
+
+    <!-- tipo de pokemon -->
+</section>
+<div class="principal">
+    <!-- Hoja izquierda -->
+    <div class="imagenIzquierda">
+
+        <img class="pokeimagen" src="img/mew.png" alt="pokemon" id="pokeimage"><br>
+        <input class="nombreIn" type="text" id="pokenombre" name="pokenombre" placeholder="Nombre de pokemon" value=""><br>
+        <button class="pokeboton" onclick="consultafetchPokemon()">Elegir Pokemon</button>
+    </div>
+    <!-- hoja Derecha -->
+    <div class="textoDerecha">
+        <Label class="labelStyle" for="poketype" >Tipo:</Label>
+        <input class="atributos" type="text" id="poketype" name="poketype" value=""><br>
+
+        <div class="textoDerechaIzquierda">
+            <Label class="labelStyle" for="pokeAttack" >Ataque</Label>
+            <input class="atributos" type="text" id="pokeAttack" name="pokeAttack" value=""><br>
+
+            <Label class="labelStyle" for="pokeSpeed" >Velocidad</Label>
+            <input class="atributos" type="text" id="pokeSpeed" name="pokeSpeed" value=""><br>
+        </div>
+        <div class="textoDerechaDerecha">
+            <Label class="labelStyle" for="pokeDefensa" >Defensa</Label>
+            <input class="atributos" type="text" id="pokeDefensa" name="pokeDefensa" value=""><br>
+
+            <Label class="labelStyle" for="pokeEspecial" >Especial</Label>
+            <input class="atributos" type="text" id="pokeEspecial" name="pokeEspecial" value=""><br>
+        </div>
+        <div class="mov1">
+        <input class="movimientos"type="text" name="mov1" id="mov1" value="">
+        <input class="movimientos"type="text" name="mov2" id="mov2" value="">
+        <input class="movimientos"type="text" name="mov3" id="mov3" value="">
+        <input class="movimientos"type="text" name="mov4" id="mov4" value="">
+        <input class="movimientos"type="text" name="mov5" id="mov5" value="">
+         </div>
+
+    </div>
+
+</div>
+
+    <!-- <div class="pokedexback">
+        <p>probando el background</p>
+    </div> -->
+        
+</body>
+    <script src="Pokedexmod.js"></script>
+    <footer></footer>
+</html>

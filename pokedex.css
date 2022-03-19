@@ -1,0 +1,95 @@
+body{
+    background-color: #6363da;
+    background-image: url(img/pokedex.png);
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    background-size:cover
+
+}
+/**************************** hoja Izquierda ************************* */
+.imagenIzquierda{
+    float: left;
+    margin-left: 12%;
+    margin-top: 22%;
+    width: 30%;
+    height: 100%;
+    text-align: center;
+}
+
+.pokeboton{
+    background-color: #1EA896;
+    color: #FAF3DD;
+    width: 40%;
+    font-size: large;
+    overflow: visible;
+    border-radius: 4px;
+}
+.pokeimagen{
+    width: 50%;
+}
+.nombreIn{
+    overflow:visible;
+    width: 50%;
+    font-size: larger;
+    text-align: center;
+    font-weight: bolder;  
+    text-transform: uppercase;  
+    border-radius: 4px;
+}
+
+/******************************* Hoja derecha ******************* */
+.textoDerecha{
+    float: right;
+    /* margin-right: -7%; */
+    margin-top: 26%;
+    text-align:center;
+    width: 45%;
+}
+/* Columna Izquierda */
+.textoDerechaIzquierda{
+    float: left;
+    overflow: hidden;
+    margin-top: 2%;
+    width: 27%;
+    text-align: right;
+    margin-left: 2%;
+}
+/* Columna Derecha */
+.textoDerechaDerecha{
+    float: right;
+    margin-top: 2%;
+    width: 35%;
+    margin-right: 10%;
+}
+
+.labelStyle{
+    font-size: 100%;
+    font-weight: bold;
+    color: aliceblue;
+    }
+
+.atributos{
+    overflow:visible;
+    width:22%;
+    font-size: larger;
+    text-align: center;
+    font-weight: bolder;  
+    text-transform: uppercase;  
+    border-radius: 4px;
+}
+.mov1{
+    overflow:visible;
+    width: 100%;
+    float: right;
+    margin-top: 15%;
+    font-size: smaller;
+
+}
+.movimientos{
+    overflow:visible;
+    width: 12%;
+    margin-block-end: 1%;
+    margin-right: 1%;
+    font-size:xx-small;
+
+}
